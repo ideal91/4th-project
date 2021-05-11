@@ -373,8 +373,11 @@ a:hover {
     color: white;
    
 }
-.window-text{
-    font-size: 18px;
+.window-text1{
+    font-size: 24px;
+}
+.window-text2{
+    font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -680,6 +683,12 @@ a {
     text-decoration: underline;
     color: white;
    
+}
+.window-text1{
+    font-size: 24px;
+}
+.window-text2{
+    font-size: 20px;
 }
 
 .container {
