@@ -370,6 +370,7 @@ a:hover {
     cursor: pointer;
     
     text-decoration: underline;
+    color: white;
    
 }
 
@@ -674,6 +675,7 @@ a {
 .color-list-child:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: white;
    
 }
 
