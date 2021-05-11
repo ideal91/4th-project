@@ -373,6 +373,9 @@ a:hover {
     color: white;
    
 }
+.window-text{
+    font-size: 18px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
