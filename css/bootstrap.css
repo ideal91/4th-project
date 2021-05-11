@@ -1654,11 +1654,12 @@ mark {
 }
 
 .text-right {
-    text-align: right
+    text-align: right;
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: 14px;
 }
 
 .text-justify {
@@ -1856,12 +1857,19 @@ abbr[title] {
     text-transform: uppercase
 }
 
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee
-}
+
+    blockquote {
+        color: #333!important;
+        font-size: 15px;
+        line-height: 26px;
+        width: 85%;
+        margin: 0 auto;
+        display: block;
+        max-width: 565px;
+        border-left: none;
+        padding: 10px 20px;
+    }
+
 
 blockquote ol:last-child,
 blockquote p:last-child,
