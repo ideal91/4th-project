@@ -374,11 +374,11 @@ a:hover {
    
 }
 .window-text1{
-    font-size: 24px;
-    font-family: "helvetica";
+    font-size: 20px;
+    font-family: helvetica;
 }
 .window-text2{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @media (min-width: 768px) {
@@ -686,11 +686,11 @@ a {
    
 }
 .window-text1{
-    font-size: 24px;
-    font-family: "helvetica";
+    font-size: 20px;
+    font-family: helvetica;
 }
 .window-text2{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .container {
