@@ -375,6 +375,7 @@ a:hover {
 }
 .window-text1{
     font-size: 24px;
+    font-family: "helvetica";
 }
 .window-text2{
     font-size: 20px;
@@ -686,6 +687,7 @@ a {
 }
 .window-text1{
     font-size: 24px;
+    font-family: "helvetica";
 }
 .window-text2{
     font-size: 20px;
