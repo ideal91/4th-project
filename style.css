@@ -366,6 +366,11 @@ a:hover {
     color: white;
     font-size:medium;
 }
+.color-list:hover {
+    cursor: pointer;
+    background-color: rgb(234, 250, 17);
+    transition: 1s;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -662,6 +667,13 @@ a {
 .color-list{
     color: white;
     font-size:medium;
+    
+}
+
+.color-list:hover {
+    cursor: pointer;
+    background-color: rgb(234, 250, 17);
+    transition: 1s;
 }
 
 .container {
