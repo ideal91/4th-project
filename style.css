@@ -369,7 +369,7 @@ a:hover {
 .color-list:hover {
     cursor: pointer;
     
-    color: rgb(250, 17, 17);
+    color: rgb(8, 8, 8);
     transition: 1s;
 }
 
@@ -673,7 +673,7 @@ a {
 
 .color-list:hover {
     cursor: pointer;
-    color: rgb(248, 4, 4);
+    color: rgb(0, 0, 0);
     transition: 1s;
 }
 
