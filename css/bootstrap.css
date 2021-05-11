@@ -1782,6 +1782,17 @@ a.bg-danger:hover {
     margin: 40px 0 20px;
     border-bottom: 1px solid #eee
 }
+blockquote {
+    color: #333!important;
+    font-size: 15px;
+    line-height: 26px;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    max-width: 565px;
+    border-left: none;
+    padding: 10px 20px;
+}
 
 ol,
 ul {
@@ -1858,17 +1869,7 @@ abbr[title] {
 }
 
 
-    blockquote {
-        color: #333!important;
-        font-size: 15px;
-        line-height: 26px;
-        width: 85%;
-        margin: 0 auto;
-        display: block;
-        max-width: 565px;
-        border-left: none;
-        padding: 10px 20px;
-    }
+   
 
 
 blockquote ol:last-child,
