@@ -364,13 +364,13 @@ a:hover {
 
 .color-list{
     color: white;
-    font-size:medium;
+    font-size: 15px;
 }
 .color-list:hover {
     cursor: pointer;
     
     color: rgb(8, 8, 8);
-    transition: 1s;
+   
 }
 
 @media (min-width: 768px) {
@@ -667,14 +667,14 @@ a {
 }
 .color-list{
     color: white;
-    font-size:medium;
+    font: size 15px;;
     
 }
 
 .color-list:hover {
     cursor: pointer;
     color: rgb(0, 0, 0);
-    transition: 1s;
+   
 }
 
 .container {
