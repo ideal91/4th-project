@@ -364,9 +364,9 @@ a:hover {
 
 .color-list{
     color: white;
-    font-size: 15px;
+    font-size: 16px;
 }
-.color-list:hover {
+.color-list-child:hover {
     cursor: pointer;
     
     color: rgb(8, 8, 8);
@@ -667,11 +667,11 @@ a {
 }
 .color-list{
     color: white;
-    font: size 15px;;
+    font: size 16px;;
     
 }
 
-.color-list:hover {
+.color-list-child:hover {
     cursor: pointer;
     color: rgb(0, 0, 0);
    
