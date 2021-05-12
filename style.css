@@ -243,6 +243,11 @@ a:hover {
     align-content: center;
     flex-direction: column;
 }
+.text-window-2page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
