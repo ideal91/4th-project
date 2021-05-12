@@ -238,6 +238,11 @@ a:hover {
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
+.align-center-pg2-footer{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
