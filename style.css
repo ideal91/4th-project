@@ -748,7 +748,9 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
-
+.home-pg2{
+    font-size: 14px;
+}
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
