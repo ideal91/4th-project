@@ -93,6 +93,9 @@ sup {
     line-height: 0;
     vertical-align: baseline
 }
+.col-sm-12{
+    text-align: center;
+}
 
 sup {
     top: -.5em
