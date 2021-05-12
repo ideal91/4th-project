@@ -711,8 +711,10 @@ a {
     font-size: 15px;
 }
 
-.container {
-    max-width: 1000px;
+.container-page2-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-bloc-text {
