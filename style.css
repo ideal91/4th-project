@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,9 +39,11 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+.bloc .container2 {
     padding-left: 0;
     padding-right: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-lg {
