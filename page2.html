@@ -46,64 +46,78 @@
 	</div>
 </div>
 
+<!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container2 bloc-lg">
+	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12 centralize">
+			<div class="col-sm-12">
 				<h1 class="text-center hero-bloc-text tc-white">
-					Let&rsquo;s talk web design!
+					Let's talk web design!
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace p-size-p2">
-					I&rsquo;m super excited that you want to work together.<br>Please fill in the form below or get in touch so I can learn about your project <br>and we can setup time to &nbsp;talk websites and Atlanta city love.
+				<p class="text-center mg-lg tc-white tight-width-whitespace">
+					I'm super excited that you want to work together.<br>Please fill in the form below or
+					get in touch so I can learn about your project <br>and we can setup time to talk
+					websites and Atlanta city love.
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
+<!-- bloc-6 END -->
 
+<!-- bloc-7 -->
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<h2 class="">Message me</h2>
+				<form id="form_1" action="./includes/form_1.php" method="POST">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Name
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" name="name" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" name="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							How did you find me?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" required id="input_504" type="text" name="find-me" />
 					</div>
 					<div class="form-group">
-						<label>
-							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						<label for="message">
+							Project brief (Please be as detailed as possible including your company goals and
+							any improvements you'd like to have over your current website)<br>
+						</label><textarea id="message" name="message" class="form-control" rows="4" cols="50"
+							required></textarea>
+					</div>
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+						type="submit">
 						Let's go Mike
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p class="p-size-p2">
-					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="ltc-atomic-tangerine" href="index.html">other page</a>.
+				<h2 class="">How to find me</h2>
+				<p>
+					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta,
+					GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services?
+					<br>Please visit the <a class="ltc-atomic-tangerine link-h" href="index.html">home page</a>.
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
+<!-- bloc-7 END -->
 
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button -->
+<a class="btn btn-d scrollToTop" onclick="scrollToTarget('1')"><i class="fa fa-chevron-up"></i></a>
 
 <div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
 	<div class="container bloc-sm container-page2-footer text-window-2page">
