@@ -417,6 +417,12 @@ a:hover {
     flex-direction: column;
     margin-bottom: 14px;
 }
+.margin-label{
+    margin-bottom: 5px;
+}
+.text-right-white-pg2{
+    font-size: 0.9em;
+}
 
 
 @media (min-width: 768px) {
@@ -565,6 +571,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    height: 25px;
 }
 
 .scrollToTop {
