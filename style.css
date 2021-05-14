@@ -569,8 +569,11 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    border-color: rgb(0, 133, 173);
+    box-shadow:none;
+    
+}
+.form-control1{
     height: 25px;
 }
 
