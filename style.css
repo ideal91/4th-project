@@ -398,6 +398,26 @@ a:hover {
 .window-text2{
     font-size: 15px;
 }
+.text-pg2-white{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-sm-6-2{
+    display: flex;
+    flex-direction: column;
+}
+.form_1-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-group1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
