@@ -1370,6 +1370,9 @@ th {
 .glyphicon-menu-up:before {
     content: "\e260"
 }
+.text-pg2-white{
+    display: flex;
+}
 
 * {
     -webkit-box-sizing: border-box;
