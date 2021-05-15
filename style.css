@@ -1150,6 +1150,9 @@ h4 {
 }
 
 @media (max-width: 400px) {
+    .body{
+        overflow-x: hidden;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
