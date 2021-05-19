@@ -1154,6 +1154,11 @@ h4 {
         width: 95%;
         overflow-x: hidden;
     }
+
+    .text-pg2-white{
+        display: flex;
+       flex-direction: column;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
