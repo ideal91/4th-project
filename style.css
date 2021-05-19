@@ -1173,6 +1173,9 @@ h4 {
     .mobile1{
     padding-left: 42px;
     }
+    .navbar-header{
+        display: flex;
+    }
 }
 
 @media (max-width: 767px) {
