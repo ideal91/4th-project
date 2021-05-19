@@ -1170,6 +1170,9 @@ h4 {
     .mobile{
         padding-left: 45px;
     }
+    .mobile1{
+    padding-left: 42px;
+    }
 }
 
 @media (max-width: 767px) {
