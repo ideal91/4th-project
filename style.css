@@ -900,12 +900,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #a4461a;
+    background: #ad4311;
+    text-decoration: underline;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #cf7247!important;
+    background: #d16a3a!important;
     cursor: pointer;
     color: #FFFFFF!important;
 }
