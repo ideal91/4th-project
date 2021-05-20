@@ -906,6 +906,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #cf7247!important;
+    cursor: pointer;
     color: #FFFFFF!important;
 }
 
@@ -923,6 +924,8 @@ h4 {
 
 .ltc-atomic-tangerine:hover {
     color: #cf7247!important;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .icon-dark-slate-blue {
