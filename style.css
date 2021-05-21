@@ -812,6 +812,7 @@ p {
     margin: auto auto auto auto;
 }
 .link-color{
+    text-decoration: none;
     color: white;
     font-size: 14px;
 }
