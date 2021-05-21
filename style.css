@@ -811,6 +811,13 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.link-color{
+    color: white;
+    font-size: 14px;
+}
+.col-sm-3{
+    text-align: center;
+}
 
 h2 {
     font-size: 22px;
