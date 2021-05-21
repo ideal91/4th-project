@@ -204,7 +204,15 @@
 	</div>
 </div>
 <!-- bloc-4-portfolio END -->
-<a class="btn btn-d scrollToTop" onclick="scrollToTarget('1')" href="index.html"><i class="fa fa-chevron-up"></i></a>
+<button id="btnScrollToTop" class="btn btn-d scrollToTop" onclick="scrollToTarget('1')" ><i class="fa fa-chevron-up"></i>
+</button>
+
+<script>
+	const btnScrollToTop = document.querySelector("btnScrollToTop");
+	btnScrollToTop.addEventListener("click", function(){
+        window.scrollTo(0,0);
+	});
+</script>
 <!-- bloc-5-cta -->
 <div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
