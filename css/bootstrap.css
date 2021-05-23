@@ -8,8 +8,7 @@
 
 html {
     font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+   
 }
 
 body {
@@ -118,8 +117,7 @@ figure {
 hr {
     height: 0;
     -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box
+    
 }
 
 pre {
@@ -157,7 +155,7 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-    -webkit-appearance: button;
+    
     cursor: pointer
 }
 
@@ -166,11 +164,6 @@ html input[disabled] {
     cursor: default
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
 
 input {
     line-height: normal
