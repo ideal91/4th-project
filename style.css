@@ -739,7 +739,7 @@ a {
 }
 .color-list{
     color: white;
-    font: size 16px;;
+    font-size: 16px;
     
 }
 .list-margin{
@@ -790,7 +790,7 @@ a {
 }
 .home-color-pg2{
     text-decoration: none;
-    color: none;
+    
     font-size: 16px;
     padding-top: 14px;
 }
